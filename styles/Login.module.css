@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50rem; */
+    margin-top: 20rem;
+}
+
+.root {
+    max-width: 345;
+}
+
+.media {
+    height: 140,
+}
