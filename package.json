@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "rm -rf .next | next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -11,8 +11,15 @@
     "@fontsource/roboto": "^4.2.3",
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
+    "dotenv": "^10.0.0",
+    "firebase": "^8.9.1",
+    "firebase-admin": "^9.11.0",
     "next": "10.2.0",
+    "nookies": "^2.5.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
